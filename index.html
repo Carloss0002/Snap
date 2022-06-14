@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <main>   
+    <header class="topMenu">
+
+      <nav class="navbar navbar-expand-lg">
+     
+       <div class="logo">
+         <img src="images/logo.svg" alt="logo_snap" width="84px" height="27px">
+       </div>
+        
+       <div class="menuBtn">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+       </div>
+      <div class="navAll">
+        <div class="navList">
+
+          <details class="nav-item">
+            <summary>
+              Features
+            </summary>
+            <ul class="listDetails">
+              <li>Todo List</li>
+              <li>Calendar</li>
+              <li>Reminders</li>
+              <li>Planning</li>
+            </ul>
+          </details>
+
+          <details class="nav-item">
+           <summary>
+             Company
+           </summary> 
+           <ul class="listDetails">
+             <li>Team</li>
+             <li>Our team</li>
+             <li>Blog</li>
+           </ul>
+          </details>
+
+           <ul class="ulList">
+             <li class="nav-item">
+               Careers
+             </li>
+             <li class="nav-item">
+               About
+             </li>
+           </ul>
+        </div>
+        
+         <div class="loginBtn">
+           <button>Login</button>
+           <button>Register</button>
+         </div> 
+      </div>
+      </nav> 
+    </header>
+
+    <div class="container">
+
+      <div class="imagemContainer">
+         <img src="./images/image-hero-desktop.png" alt="" class="img-lg">
+         <img src="./images/image-hero-mobile.png" alt="" class="img-sm">
+      </div>
+
+     <div class="content">
+       <div>
+ 
+         <h1>Make <br class="toVanish"> remote work</h1>
+       
+         <p>Get your team in sync, no matter your location. Streamline processes, 
+         create team rituals, and watch productivity soar.</p>
+       
+         <button>Learn more</button>
+       
+       </div>
+ 
+       <footer>
+          <div class="imageFooter">
+            <img src="./images/client-databiz.svg" alt="databiz_Client">
+            <img src="./images/client-audiophile.svg" alt="client-audiophile">
+            <img src="./images/client-meet.svg" alt="client-meet">
+            <img src="./images/client-maker.svg" alt="client-maker">
+          </div>
+       </footer>
+     </div>
+    </div>
+  </main>
+
+
+  <script src="./JS/mobile-menu.js"></script>
+</body>
+</html>
